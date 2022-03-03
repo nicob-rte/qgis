@@ -1,4 +1,5 @@
-Mode opératoire pour extraire les PN à partir des calques LSPS
+Mode opératoire pour extraire les PN et en découper le tracé en tronçons de PN à PN
+à partir des calques LSPS
   06-01-RTE-PROJET-AXE_AAAAALN1BBBBB
   06-01-RTE-PROJET-PN_AAAAALN1BBBBB
   06-01-RTE-PROJET-PN_AAAAALN1BBBBB-Texts
@@ -42,4 +43,8 @@ Mode opératoire pour extraire les PN à partir des calques LSPS
   couche de rayons = PN2
   champ d'identification des rayons = text
   [...] autres options par défaut
-  
+  --> crée une couche 'Réseau en étoile'
+
+5. Extraire PN
+
+6. Couper tracé en tronçons de PN à PN
