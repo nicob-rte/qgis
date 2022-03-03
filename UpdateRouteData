@@ -1,7 +1,10 @@
-  New
+Mode opératoire pour transférer les data d'un ancien tracé à un nouveau
+à partir de deux tracés : NewRoute et OldRoute
 
-
-1. 
+1. Créer une zone tampon autour de OldRoute = Tampon
+  couche source = OldRoute
+  Distance = 1m
+  [...] autres options par défaut
   --> crée une couche 'Mis en tampon'
 
 2. Attribuer les data à la nouvelle route = Joindre les attributs par localisation
@@ -13,4 +16,3 @@
   [...] autres options par défaut
   ** 'JOIN_FIELDS' : [], 'METHOD' : 1, 'OUTPUT' : 'TEMPORARY_OUTPUT', 'PREDICATE' : [4], 'PREFIX' : '' **
   --> crée une couche 'Couche issue de la jointure spatiale'
-  
