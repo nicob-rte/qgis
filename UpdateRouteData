@@ -1,0 +1,16 @@
+  New
+
+
+1. 
+  --> crée une couche 'Mis en tampon'
+
+2. Attribuer les data à la nouvelle route = Joindre les attributs par localisation
+  couche source = NewRoute
+  joindre la couche = Mis en tampon
+  prédicat géométrique = à l'intérieur
+  champs à ajouter : laisser vide pour tout ajouter
+  type de jointure = Prendre uniquement les attributs de la première entité localisée (correspondance unique)
+  [...] autres options par défaut
+  ** 'JOIN_FIELDS' : [], 'METHOD' : 1, 'OUTPUT' : 'TEMPORARY_OUTPUT', 'PREDICATE' : [4], 'PREFIX' : '' **
+  --> crée une couche 'Couche issue de la jointure spatiale'
+  
