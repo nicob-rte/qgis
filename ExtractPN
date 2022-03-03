@@ -47,6 +47,17 @@ Sous Qgis:
   [...] autres options par défaut
   --> crée une couche 'Réseau en étoile'
 
-5. Extraire les PN =
+5a. Créer un index spatial
+  couche = 06-01-RTE-PROJET-AXE_AAAAALN1BBBBB
+5b. Créer un index spatial
+  couche = Réseau en étoile
 
-6. Couper tracé en tronçons de PN à PN =
+6. Extraire les PN = Intersection de lignes
+  couche source = 06-01-RTE-PROJET-AXE_AAAAALN1BBBBB
+  couche d'intersection = Réseau en étoile
+  --> crée une couche 'Intersections'
+
+7. Couper tracé en tronçons de PN à PN = Couper avec des lignes
+  couche source = 06-01-RTE-PROJET-AXE_AAAAALN1BBBBB
+  couche de découpage = Réseau en étoile
+  --> crée une couche ''
