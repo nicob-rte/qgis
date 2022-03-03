@@ -3,4 +3,27 @@ Mode opératoire pour extraire les PN à partir des calques LSPS
   06-01-RTE-PROJET-PN_AAAAALN1BBBBB
   06-01-RTE-PROJET-PN_AAAAALN1BBBBB-Texts
 
-1. 
+1. Exporter le calque PN-Texts en CSV
+  couche = 06-01-RTE-PROJET-PN_AAAAALN1BBBBB-Texts
+  format = Valeurs séparées par une virgule (CSV)
+  champs = text, angle
+  options de la couche:
+    GEOMETRY = AS_XY
+
+2. Extrapoler les points orthogonaux depuis le calque texte
+  Importer les colonnes X, Y, text, angle du CSV (remplacer . par ,)
+  Calculer les colonnes suivantes :
+    rad90 =([angle]+90)*PI()/180
+    x1 =[X]+5*COS([rad90])
+    y1 =[Y]+5*SIN([rad90])
+    x2 =[X]-5*COS([rad90])
+    y2 =[Y]-5*SIN([rad90])
+  Créer 2 fichiers CSV PN1.csv et PN2.csv en exportant les colonnes suivantes:
+    PN1.csv = text,x1,y1
+    PN2.csv = text,x2,y2
+  ** Utiliser le fichier Excel resource **
+  
+3a. Importer PN1.csv sous Qgis
+  
+3b. Importer PN2.csv sous Qgis
+  même process
