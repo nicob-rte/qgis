@@ -1,0 +1,26 @@
+Mode opératoire pour découper un tracé en tronçons de longueur D :
+à partir d'un tracé entité unique
+
+1. Division des lignes par longueur maximale
+  longueur max = $D
+  --> crée une couche 'Couper'
+  
+2. Point le long d'une géométrie
+  distance = $D
+  --> crée une couche 'points interpolés'
+
+3a. Créer un index spatial
+  couche = Couper
+3b. Créer un index spatial
+  couche = points interpolés
+  
+4. Joindre les attributs par localisation
+  couche source = Couper
+  joindre la couche = points interpolés
+  prédicat géométrique = touche
+  champs à ajouter : laisser vide pour tout ajouter
+  type de jointure = Prendre uniquement les attributs de la première entité localisée (correspondance unique)
+  [...] autres options par défaut
+  ** 'PREDICATE':[3],'JOIN_FIELDS':[],'METHOD':1,'DISCARD_NONMATCHING':False,'PREFIX':'','OUTPUT':'TEMPORARY_OUTPUT' **
+  --> crée une couche 'Couche issue de la jointure spatiale'
+   
