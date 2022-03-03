@@ -37,8 +37,7 @@ Sous Qgis:
     point: champ X = x1, champ Y = y1
     SCR = 2154 RGF93 / Lambert-93
   [...] autres options par défaut
-3b. Importer PN2.csv sous Qgis
-  même process
+3b. Importer PN2.csv sous Qgis = même process
 
 4. Rejoindre par des lignes (lignes de hub)
   couche de hub = PN1
@@ -48,6 +47,6 @@ Sous Qgis:
   [...] autres options par défaut
   --> crée une couche 'Réseau en étoile'
 
-5. Extraire PN
+5. Extraire les PN =
 
-6. Couper tracé en tronçons de PN à PN
+6. Couper tracé en tronçons de PN à PN =
