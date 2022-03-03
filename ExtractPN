@@ -23,7 +23,23 @@ Mode opératoire pour extraire les PN à partir des calques LSPS
     PN2.csv = text,x2,y2
   ** Utiliser le fichier Excel resource **
   
-3a. Importer PN1.csv sous Qgis
-  
+3a. Importer PN1.csv sous Qgis = Ajouter une couche de texte délimité
+  format :
+    délimiteurs personnalisés : point-virgule
+  options des champs et enregistrements :
+    virgule en séparateur décimal = ok
+    en-tête en 1ère ligne = ok
+  définition de la géométrie :
+    point: champ X = x1, champ Y = y1
+    SCR = 2154 RGF93 / Lambert-93
+  [...] autres options par défaut
 3b. Importer PN2.csv sous Qgis
   même process
+
+4. Rejoindre par des lignes (lignes de hub)
+  couche de hub = PN1
+  champ d'identification du hub = text
+  couche de rayons = PN2
+  champ d'identification des rayons = text
+  [...] autres options par défaut
+  
