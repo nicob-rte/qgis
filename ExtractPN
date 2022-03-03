@@ -4,13 +4,15 @@ Mode opératoire pour extraire les PN et en découper le tracé en tronçons de 
   06-01-RTE-PROJET-PN_AAAAALN1BBBBB
   06-01-RTE-PROJET-PN_AAAAALN1BBBBB-Texts
 
-1. Exporter le calque PN-Texts en CSV
+Sous Qgis:
+1. Exporter le calque PN-Texts en CSV = Exporter > sauvegarder les entités sous
   couche = 06-01-RTE-PROJET-PN_AAAAALN1BBBBB-Texts
   format = Valeurs séparées par une virgule (CSV)
   champs = text, angle
   options de la couche:
     GEOMETRY = AS_XY
 
+Sous Excel:
 2. Extrapoler les points orthogonaux depuis le calque texte
   Importer les colonnes X, Y, text, angle du CSV (remplacer . par ,)
   Calculer les colonnes suivantes :
@@ -23,8 +25,9 @@ Mode opératoire pour extraire les PN et en découper le tracé en tronçons de 
     PN1.csv = text,x1,y1
     PN2.csv = text,x2,y2
   ** Utiliser le fichier Excel resource **
-  
-3a. Importer PN1.csv sous Qgis = Ajouter une couche de texte délimité
+
+Sous Qgis:
+3a. Importer PN1.csv = Ajouter une couche de texte délimité
   format :
     délimiteurs personnalisés : point-virgule
   options des champs et enregistrements :
