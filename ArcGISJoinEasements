@@ -1,0 +1,15 @@
+
+1. Joindre les parcelles/dossiers
+CELTIC_PLOTS
+XL_EASED_PLOTS
+  Join by INSEE/INSEE
+  Joindre un vers un
+  Conerver toutes les entités - NOK
+  Créer des résultats en tant que vue de couche d’entités hébergée - OK
+  --> JT_EASED_PLOTS
+  
+2. Faire une copie statique de la jonction
+  Export JT_EASED_PLOTS
+  Import as STATIC_EASED_PLOTS
+  
+3. Joindre
