@@ -20,3 +20,11 @@
   Conserver toutes les entités - OK
   Créer des résultats en tant que vue de couche d’entités hébergée - OK
   --> JT_EASEMENTS
+
+4. Mettre en forme la carte
+  Créer des copies de JT_EASEMENTS (lien vers données sources JT_EASEMENTS) par type d'affichage:
+  --> EASEMENTS - par statuts
+  --> EASEMENTS - par dossiers
+  
+-------------------------------------------
+Mettre à jour les données - XL_EASEMENTS
