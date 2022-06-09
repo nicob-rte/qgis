@@ -1,3 +1,8 @@
 Mettre à jour les données
 
 XL_EASEMENTS
+  Mettre à jour les données > Ajouter des données à la couche
+  Selectionner le fichier de mise à jour XL_EASEMENTS.csv > charger et continuer
+  Mettre à jour des entités existantes - ok
+  Champ d'identifiant unique : BYES - BYES
+  Afficher les appariements de champs : vérifier ligne/ligne quoi mettre à jour
