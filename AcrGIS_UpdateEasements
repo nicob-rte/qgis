@@ -1,4 +1,10 @@
-Mettre à jour les données
+Mettre à jour l'appariement de dossiers
+  STATIC_EASED_PLOTS
+  Modifier les valeurs de BYES directement sur les entités (=parcelles) concernées
+    (via la table ou plus facilement depuis la carte)
+
+------------------------------------------
+Mettre à jour les données conventionnement
 
 XL_EASEMENTS
   Mettre à jour les données > Ajouter des données à la couche
