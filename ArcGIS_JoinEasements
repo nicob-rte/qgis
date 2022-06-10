@@ -17,7 +17,8 @@
   XL_EASEMENTS
   Join by BYES/BYES
   Joindre un vers un
-  Conserver toutes les entités - OK
+  Conserver toutes les entités cible - OK
+  Utiliser l'étendue courante de la carte - NOK
   Créer des résultats en tant que vue de couche d’entités hébergée - OK
   --> JT_EASEMENTS
 
