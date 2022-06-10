@@ -6,7 +6,12 @@ Mettre à jour l'appariement de dossiers
 ------------------------------------------
 Mettre à jour les données conventionnement
 
-XL_EASEMENTS
+1. Edit new XL_EASEMENTS.csv
+  Go to ECPR, open CONVENTIONNEMENT_CELTIC.xlsm file
+  Load the updated XLs: update file name values, click macro button
+  Export CSV (click macro button)
+  
+2. Update the XL_EASEMENTS (Table hébergée) layer on ArcGIS
   Mettre à jour les données > Ajouter des données à la couche
   Selectionner le fichier de mise à jour XL_EASEMENTS.csv > charger et continuer
   Mettre à jour des entités existantes - ok
