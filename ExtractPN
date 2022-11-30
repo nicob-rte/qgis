@@ -52,7 +52,7 @@ Sous Qgis:
 5b. Créer un index spatial
   couche = Réseau en étoile
 
-6. Extraire les PN = Intersection de lignes
+6. Extraire les PN = Intersection de lignes [1 min]
   couche source = 06-01-RTE-PROJET-AXE_AAAAALN1BBBBB
   couche d'intersection = Réseau en étoile
   --> crée une couche 'Intersections'
