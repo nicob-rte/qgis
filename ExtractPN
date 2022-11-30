@@ -39,7 +39,7 @@ Sous Qgis:
   [...] autres options par défaut
 3b. Importer PN2.csv sous Qgis = même process
 
-4. Créer les orthogonales = Rejoindre par des lignes (lignes de hub)
+4. Créer les orthogonales = Rejoindre par des lignes (lignes de hub) [5 min]
   couche de hub = PN1
   champ d'identification du hub = text
   couche de rayons = PN2
