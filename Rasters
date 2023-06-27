@@ -1,3 +1,5 @@
+Proxy RTE: 163.104.40.34:3128
+
 ESRI Satellite
 https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}
 
